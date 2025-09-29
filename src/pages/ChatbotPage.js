@@ -37,7 +37,7 @@ const ChatbotPage = () => {
   const messagesEndRef = useRef(null);
 
   // Gemini API Configuration
-  const apiKey = "AIzaSyDmlhen-vlDdK9k6Wvp38h39qaiJBZ4hrI";
+  const apiKey = "AIzaSyDmlhen-vlDdK9k6Wvp38h9qaiJBZ4hrI";
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
   const systemPrompt =
     "You are MindBot, an AI mental health companion. Your primary goal is to provide supportive, empathetic, and informative responses. You are not a medical professional. Always encourage users to seek help from a qualified professional for serious issues. Keep responses concise, compassionate, and helpful. Use a friendly and non-clinical tone.";
