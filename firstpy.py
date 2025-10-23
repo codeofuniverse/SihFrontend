@@ -1,1 +1,1 @@
-//write something here
+print("hello world")
